@@ -1,16 +1,19 @@
 import { Outlet } from "react-router"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 
 export default function Layout() {
     return (
-        <div className="style-layout-system">
+        <div>
 
-            <nav className="style-header"> Header </nav>
+            <Header />
 
-            <div className="style-main-content">
+            <div>
                 <Outlet />
             </div>
 
-            <footer className="style-footer"> Footer </footer>
+            <Footer />
         </div>
     );
 };

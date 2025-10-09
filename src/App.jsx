@@ -1,8 +1,8 @@
+import { Routing } from "./routes/Routing"
+
 function App() {
     return (
-        <>
-            <h1>MuscleGainer</h1>
-        </>
+            <Routing />
     )
 }
 

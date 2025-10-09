@@ -1,0 +1,46 @@
+export const program = {
+    day1: {
+        label: "Day 1 - Pettorali & spalle",
+        exercises: [
+            {name: "Panca piana Manubri", sets: 3, reps: 6, note: ""},
+            {name: "Panca inclinata multipower", sets: 3, reps: 6, note: ""},
+            {name: "Dip parallele", sets: 3, reps: "Max", note: ""},
+            {name: "Croci panca 90", sets: 3, reps: 8, note: "+2'' iso"},
+            {name: "Chest inclinata strip", sets: 2, reps: 6, note: "dropset a cedimento"},
+            {name: "Spinte verticali", sets: 3, reps: 6, note: "multipower o shoulder press hammer"},
+            {name: "Alzate laterali in piedi", sets: 4, reps: 8, note: "+2'' iso macchina o manubri"},
+            {name: "Tirate al mento cavo basso", sets: 2, reps: 20, note: ""},
+            {name: "PecFly presa verticale", sets: 3, reps: 15, note: ""},
+            {name: "Alzate laterali panca 60", sets: 3, reps: 10, note: "max rom"},
+        ], 
+    },
+    day2: {
+        label: "Day 2 - Gambe",
+        exercises: [
+            {name: "Leg Extension", sets: 3, reps: 4, note: "solo iso 5''"},
+            {name: "Seated leg curl", sets: 3, reps: 4, note: "solo iso 5''"},
+            {name: "Squat", sets: "4 piramidale", reps: "8-8-6-6", note: ""},
+            {name: "Affondo sul posto", sets: 4, reps: 8, note: "bosu o manubri"},
+            {name: "Hip trust", sets: 4, reps: 8, note: ""},
+            {name: "Leg press", sets: 4, reps: 8, note: ""},
+            {name: "calf singolo", sets: 3, reps: 8, note: "+15 doppio corpo libero"},
+            {name: "Calf leg press orizzontale", sets: 3, reps: 12, note: "max rom"},
+            {name: "calf press", sets: 1, reps: 100, note: ""},
+        ], 
+    },
+    day3: {
+        label: "Day 3 - Dorsali & braccia",
+        exercises: [
+            {name: "Trazioni", sets: 4, reps: "Max", note: ""},
+            {name: "Superlat machine", sets: "4 piramidale", reps: "8-8-6-6", note: "stretto"},
+            {name: "Pulley basso", sets: "3", reps: "8", note: "Triangolo nero SLOW"},
+            {name: "Rematore incline strip", sets: 2, reps: 6, note: "drop set a cedimento"},
+            {name: "Curl martello", sets: 4, reps: 8, note: "panca 45"},
+            {name: "Curl barra z cavo basso", sets: 3, reps: "6-6-6", note: "drop set"},
+            {name: "Bayesian curl", sets: 3, reps: 6, note: ""},
+            {name: "Push down", sets: 4, reps: 10, note: "Barra inversa"},
+            {name: "Push down", sets: 3, reps: 8, note: "Corda"},
+            {name: "Frech press", sets: 3, reps: 15, note: "cavo basso corda"},
+        ], 
+    },
+}
