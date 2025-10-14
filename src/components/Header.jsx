@@ -48,6 +48,9 @@ export default function Header() {
             <li>
               <Link to="/schedule" className="text-gray-700 transition hover:text-gray-900">Schedule</Link>
             </li>
+            <li>
+              <Link to="/programs" className="text-gray-700 transition hover:text-gray-900">Programs</Link>
+            </li>
           </ul>
         </nav>
       </div>
@@ -68,17 +71,24 @@ export default function Header() {
                     Schedule
                   </Link>
                 </li>
+                <li>
+                  <Link to="/programs" className="block text-gray-700 hover:text-gray-900" onClick={() => setOpen(false)}>
+                    Programs
+                  </Link>
+                </li>
               </ul>
             </nav>
 
-            <div className="mt-4 flex gap-3">
-              <button className="flex-1 rounded-md bg-teal-600 px-4 py-2 text-sm font-medium text-white hover:bg-teal-700" type="button">
-                Login
-              </button>
-              <button className="flex-1 rounded-md bg-gray-100 px-4 py-2 text-sm font-medium text-teal-700 hover:bg-gray-200" type="button">
-                Register
-              </button>
-            </div>
+      <div className="ml-auto flex items-center gap-3">
+        {session ? (
+          <>
+            <span className="text-sm text-gray-600">{session.user?.email || "Anon"}</span>
+            <button onClick={signOut} className="rounded bg-gray-100 px-3 py-1 text-sm">Logout</button>
+          </>
+        ) : (
+          <Link to="/auth" className="rounded bg-teal-600 px-3 py-1 text-sm text-white">Login / Register</Link>
+        )}
+      </div>
           </div>
         </div>
       )}
