@@ -43,4 +43,17 @@ export const program = {
             {name: "Frech press", sets: 3, reps: 15, note: "cavo basso corda"},
         ], 
     },
+    upper: {
+        label: "Upper",
+        exercises: [
+            {name: "Panca piana manubri", sets: 4, reps: "6-8", note: ""},
+            {name: "Rematore manubrio", sets: 3, reps: "8-10", note: ""},
+            {name: "Spinte spalle manubri", sets: 3, reps: "8-10", note: ""},
+            {name: "Lat machine", sets: 3, reps: "10-12", note: ""},
+            {name: "Croci cavo basso", sets: 3, reps: "12-15", note: ""},
+            {name: "Alzate laterali manubri", sets: 3, reps: "10-12", note: ""},
+            {name: "Curl manubri", sets: 3, reps: "10-12", note: ""},
+            {name: "Push down", sets: 3, reps: "12-15", note: ""},
+        ], 
+    },
 }
